@@ -18,6 +18,13 @@
 package com.floragunn.searchguard.util;
 
 public final class ConfigConstants {
+	
+	//ADDED BY MADHU FOR KEYSTONE AUTH BACKEND
+	public static final String SEARCHGUARD_AUTHENTICATION_KEYSTONE_HOST = "searchguard.authentication.keystone.host";
+	public static final String SEARCHGUARD_AUTHENTICATION_KEYSTONE_PORT = "searchguard.authentication.keystone.port";
+	public static final String SEARCHGUARD_AUTHENTICATION_KEYSTONE_DOMAIN_NAME = "searchguard.authentication.keystone.domain.name";
+	//DONE 
+	
 
     public static final String DEFAULT_SECURITY_CONFIG_INDEX = "searchguard";
     public static final String SEARCHGUARD_ACTIONREQUESTFILTER = "searchguard.actionrequestfilter.names";
