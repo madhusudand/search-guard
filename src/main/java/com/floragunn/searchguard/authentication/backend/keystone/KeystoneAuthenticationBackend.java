@@ -83,7 +83,7 @@ public class KeystoneAuthenticationBackend implements
 
 		authCreds.clear();
 
-		// ADDED BY MADHU FOR KEYSTONE INTEGRATION
+		
 		try {
 			SSLContext ctx = SSLContext.getInstance("TLS");
 			ctx.init(new KeyManager[0],
@@ -131,7 +131,7 @@ public class KeystoneAuthenticationBackend implements
 
 		// log.debug("Authenticated username {}", username);
 
-		// return new LdapUser(username, entry);
+		
 
 	}
 
